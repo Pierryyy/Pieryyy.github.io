@@ -12,10 +12,10 @@
     </head>
     <nav class="navbar navbar-dark bg-success">
         <div class="container-fluid">
-            <a class="navbar-brand">Navbar</a>
+            <a href="/" class="navbar-brand">Pixadura</a>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <a href="" class="navbar-brand">Perfil</a>
+                <a href="/user.php" class="navbar-brand">Perfil</a>
             </form>
         </div>
     </nav>
