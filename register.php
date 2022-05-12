@@ -27,14 +27,15 @@
                   <div class="row">
                     <div class="col-md-6 mb-4">
                       <div class="form-outline">
+                        <label class="form-label" for="firstName">Primeiro Nome: </label>
                         <input type="text" id="firstName" class="form-control form-control-lg" />
-                        <label class="form-label" for="firstName">Primeiro Nome</label>
                       </div>
                     </div>
                     <div class="col-md-6 mb-4">
                       <div class="form-outline">
+                      <label class="form-label" for="lastName">Segundo Nome: </label>
                         <input type="text" id="lastName" class="form-control form-control-lg" />
-                        <label class="form-label" for="lastName">Segundo Nome</label>
+                     
                       </div>
                     </div>
                   </div>
