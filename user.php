@@ -13,7 +13,7 @@
     </head>
     <nav class="navbar navbar-dark bg-success">
         <div class="container-fluid">
-            <a href="/" class="navbar-brand">Navbar</a>
+            <a href="/" class="navbar-brand">Pixadura</a>
         </div>
     </nav>
     <body>
