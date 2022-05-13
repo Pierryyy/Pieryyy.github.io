@@ -25,6 +25,9 @@
     $("#cpf").mask("000.000.000-00");
     $("#cep").mask("00000-000");
   </script>
+  <script>
+    
+  </script>
 </head>
 
 <body>
@@ -39,14 +42,14 @@
                 <div class="row">
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <label class="form-label" for="firstName">Nome</label>
+                      <label class="form-label" for="firstName">Nome:</label>
                       <input type="text" id="firstName" placeholder="Primeiro Nome" class="form-control form-control-lg" />
 
                     </div>
                   </div>
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <label class="form-label" for="lastName">Sobrenome</label>
+                      <label class="form-label" for="lastName">Sobrenome:</label>
                       <input type="text" id="lastName" placeholder="Segundo Nome" class="form-control form-control-lg" />
 
                     </div>
@@ -55,13 +58,13 @@
                 <div class="row">
                   <div class="col-md-6 mb-4 d-flex align-items-center">
                     <div class="form-outline datepicker w-100">
-                      <label for="birthdayDate" class="form-label">Data de nascimento</label>
+                      <label for="birthdayDate" class="form-label">Data de nascimento:</label>
                       <input type="text" name="birthdayDate" placeholder="00/00/0000" class="form-control form-control-lg" id="birthdayDate" />
 
                     </div>
                   </div>
                   <div class="col-md-6 mb-4">
-                    <label for="cpf" class="cpf form-label">CPF</label>
+                    <label for="cpf" class="cpf form-label">CPF:</label>
                     <input id="cpf" name="cpf" class="form-control cpf" placeholder="Ex.: 000.000.000-00">
 
                   </div>
@@ -69,14 +72,14 @@
                 <div class="row">
                   <div class="col-md-6 mb-4 pb-2">
                     <div class="form-outline">
-                      <label class="form-label" for="emailAddress">Email</label>
+                      <label class="form-label" for="emailAddress">Email:</label>
                       <input type="email" id="emailAddress" placeholder="seuemail@gmail.com" class="form-control form-control-lg" />
 
                     </div>
                   </div>
                   <div class="col-md-6 mb-4 pb-2">
                     <div class="form-outline">
-                      <label class="form-label" for="phoneNumber">Número de Telefone</label>
+                      <label class="form-label" for="phoneNumber">Número de Telefone:</label>
                       <input type="text" id="phoneNumber" name="phoneNumber" placeholder="(00) 000000000" class="form-control phoneNumber-mask" />
 
                     </div>
@@ -95,38 +98,38 @@
                       <div class="row">
                       </div>
                       <div class="form-outline mb-4">
-                        <label class="form-label" for="formCep">CEP</label>
-                        <input type="text" name="cep" id="cep" class="form-control form-control-lg" />
+                        <label class="form-label" for="formCep">CEP:</label>
+                        <input placeholder="00000-000" type="text" name="cep" id="cep" class="form-control form-control-lg" />
                         
                       </div>
                       <div class="row">
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Estado</label>
-                          <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example8">Estado:</label>
+                          <input placeholder="Estado" type="text" id="form3Example8" class="form-control form-control-lg" />
                           
                         </div>
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Cidade</label>
-                          <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example8">Cidade:</label>
+                          <input placeholder="Cidade" type="text" id="form3Example8" class="form-control form-control-lg" />
                           
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Rua</label>
-                          <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example8">Rua:</label>
+                          <input placeholder="Rua" type="text" id="form3Example8" class="form-control form-control-lg" />
                           
                         </div>
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Número</label>
-                          <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Example8">Número:</label>
+                          <input placeholder="Número" type="text" id="form3Example8" class="form-control form-control-lg" />
                           
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="mt-4 pt-2">
-                    <input class="btn btn-primary btn-lg" type="submit" value="Enviar" />
+                    <input class="btn btn-primary btn-lg" type="submit" value="Registrar"/>
                   </div>
               </form>
             </div>
