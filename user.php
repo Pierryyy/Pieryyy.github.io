@@ -13,7 +13,7 @@
     </head>
     <nav class="navbar navbar-dark bg-success">
         <div class="container-fluid">
-            <a href="/" class="navbar-brand">Navbar</a>
+            <a href="/" class="navbar-brand">Pixadura</a>
         </div>
     </nav>
     <body>
@@ -23,34 +23,48 @@
                     <div class="col-md-5 border-right">
                         <div class="p-3 py-5">
                             <div class="d-flex justify-content-between align-items-center mb-3">
-                                <h4 class="text-right">Profile Settings</h4>
+                                <h4 class="text-right">Perfil</h4>
                             </div>
                             <div class="row mt-2">
-                                <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
-                                <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
+                                <div class="col-md-6">
+                                    <label class="labels">Primeiro Nome: </label>
+                                    <input type="text" class="form-control" placeholder="Fulano" value="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="labels">Segundo Nome:</label>
+                                    <input type="text" class="form-control" value="" placeholder="De Tal">
+                                </div>
                             </div>
                             <div class="row mt-3">
-                                <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
-                                <div class="col-md-12"><label class="labels">Address Line 1</label><input type="text" class="form-control" placeholder="enter address line 1" value=""></div>
-                                <div class="col-md-12"><label class="labels">Address Line 2</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
-                                <div class="col-md-12"><label class="labels">Postcode</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
-                                <div class="col-md-12"><label class="labels">State</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
-                                <div class="col-md-12"><label class="labels">Area</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
-                                <div class="col-md-12"><label class="labels">Email ID</label><input type="text" class="form-control" placeholder="enter email id" value=""></div>
-                                <div class="col-md-12"><label class="labels">Education</label><input type="text" class="form-control" placeholder="education" value=""></div>
+                                <div class="col-md-12">
+                                    <label class="labels">Numero de Telefone:</label>
+                                    <input type="text" class="form-control" placeholder="(00)0000-0000" value=""></div>
+                                <div class="col-md-12">
+                                    <label class="labels">Email:</label>
+                                    <input type="text" class="form-control" placeholder="email@gmail.com" value="">
+                                </div>
                             </div>
                             <div class="row mt-3">
-                                <div class="col-md-6"><label class="labels">Country</label><input type="text" class="form-control" placeholder="country" value=""></div>
-                                <div class="col-md-6"><label class="labels">State/Region</label><input type="text" class="form-control" value="" placeholder="state"></div>
+                                <div class="col-md-6"><label class="labels">CPF</label><input type="text" class="form-control" placeholder="XXX.XXX.XXX-XX" value=""></div>
+                                <div class="col-md-6"><label class="labels">Data de Nascimento</label><input type="text" class="form-control" value="" placeholder="00/00/0000"></div>
                             </div>
                             <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="p-3 py-5">
-                            <div class="d-flex justify-content-between align-items-center experience"><span>Edit Experience</span><span class="border px-3 p-1 add-experience"><i class="fa fa-plus"></i>&nbsp;Experience</span></div><br>
-                            <div class="col-md-12"><label class="labels">Experience in Designing</label><input type="text" class="form-control" placeholder="experience" value=""></div> <br>
-                            <div class="col-md-12"><label class="labels">Additional Details</label><input type="text" class="form-control" placeholder="additional details" value=""></div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="text-right">Endereço</h4>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">Endereço</label>
+                                <input type="text" class="form-control" placeholder="Insira seu Endereço" value="">
+                            </div>
+                            <div class="col-md-12">
+                                    <label class="labels">CEP</label>
+                                    <input type="text" class="form-control" placeholder="00000-000" value="">
+                                </div>
+                            <div class="col-md-12"><label class="labels">Estado</label><input type="text" class="form-control" placeholder="Rio Grande do Sul" value=""></div>
                         </div>
                     </div>
                 </div>
