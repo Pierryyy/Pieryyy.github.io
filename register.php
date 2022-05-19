@@ -122,7 +122,7 @@
                         </div>
                         <div class="col-md-6 mb-4">
                           <label class="form-label" for="form3Example8">Número:</label>
-                          <input placeholder="Número" type="text" id="form3Example8" class="form-control form-control-lg" />
+                          <input placeholder="Número" type="number" id="form3Example8" class="form-control form-control-lg" />
                           
                         </div>
                       </div>
