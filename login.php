@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Signin Template · Bootstrap v5.1</title>
+    <title>Login Pixadura</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -35,7 +35,7 @@
                       <div class="col-md-6 mb-4">
                         <div class="form-outline">
                         <label class="form-label" for="lastName">Senha: </label>
-                          <input placeholder="***************" type="text" id="firstName" class="form-control form-control-lg" />
+                          <input placeholder="***************" type="password" id="firstName" class="form-control form-control-lg" />
                         </div>
 
                       </div>
@@ -43,7 +43,7 @@
 
                         <div class="form-outline">
                         <label class="form-label" for="lastName">Confirmar senha: </label>
-                          <input placeholder="***************" type="text" id="lastName" class="form-control form-control-lg" />
+                          <input placeholder="***************" type="password" id="lastName" class="form-control form-control-lg" />
                         </div>
                       </div>
                   </div>

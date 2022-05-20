@@ -34,16 +34,16 @@
                 <div class="col-md-5 border-right">
                     <div class="p-3 py-5">
                         <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h4 class="text-right">Perfil</h4>
+                            <h4 class="text-right">Perfil:</h4>
                         </div>
                         <div class="row mt-2">
                             <div class="col-md-6">
                                 <label class="labels">Primeiro Nome: </label>
-                                <input type="text" class="form-control form-control-lg" placeholder="Fulano" value="">
+                                <input type="text" class="form-control form-control-lg" placeholder="Andre" value="">
                             </div>
                             <div class="col-md-6">
                                 <label class="labels">Segundo Nome:</label>
-                                <input type="text" class="form-control form-control-lg" value="" placeholder="De Tal">
+                                <input type="text" class="form-control form-control-lg" value="" placeholder="Paulo">
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -57,23 +57,23 @@
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <div class="col-md-6"><label class="labels">CPF</label>
+                            <div class="col-md-6"><label class="labels">CPF:</label>
                             <input id="cpf" name="cpf" class="form-control form-control-lg cpf" placeholder="Ex.: 000.000.000-00">
                         </div>
-                            <div class="col-md-6"><label class="labels">Data de Nascimento</label>
+                            <div class="col-md-6"><label class="labels">Data de Nascimento:</label>
                             <input type="text" name="birthdayDate" placeholder="00/00/0000" class="form-control form-control-lg" id="birthdayDate" /></div>
                         </div>
-                        <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Salvar Perfil</button> <button class="btn btn-primary profile-button" type="button">Deletar Perfil</button></div>
+                        <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Salvar Perfil</button> <button class="btn btn-danger profile-button" type="button">Deletar Perfil</button></div>
                       
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="p-3 py-5">
                         <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h4 class="text-right">Endereço</h4>
+                            <h4 class="text-right">Endereço:</h4>
                         </div>
                         <div class="col-md-12">
-                            <label class="labels">Endereço</label>
+                            <label class="labels">Endereço:</label>
                             <input type="text" class="form-control form-control-lg" placeholder="Insira seu Endereço" value="">
                         </div>
                         <div class="col-md-12">
@@ -82,10 +82,10 @@
                           
                         </div>
                         <div class="col-md-12">
-                            <label class="labels">CEP</label>
+                            <label class="labels">CEP:</label>
                             <input placeholder="00000-000" type="text" name="cep" id="cep" class="form-control form-control-lg" />
                         </div>
-                        <div class="col-md-12"><label class="labels">Estado</label><input type="text" class="form-control form-control-lg" placeholder="Rio Grande do Sul" value=""></div>
+                        <div class="col-md-12"><label class="labels">Estado:</label><input type="text" class="form-control form-control-lg" placeholder="Rio Grande do Sul" value=""></div>
                     </div>
                 </div>
             </div>
