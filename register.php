@@ -1,5 +1,3 @@
-<!doctype html>
-<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -23,7 +21,7 @@
     $("#cep").mask("00000-000");
   </script>
   <script>
-    
+
   </script>
 </head>
 
@@ -40,14 +38,14 @@
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
                       <label class="form-label" for="firstName">Nome:</label>
-                      <input type="text" id="firstName" placeholder="Primeiro Nome" class="form-control form-control-lg" />
+                      <input type="text" id="firstName" name="firstName" placeholder="Primeiro Nome" class="form-control form-control-lg" />
 
                     </div>
                   </div>
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
                       <label class="form-label" for="lastName">Sobrenome:</label>
-                      <input type="text" id="lastName" placeholder="Segundo Nome" class="form-control form-control-lg" />
+                      <input type="text" id="lastName" name="lastName" placeholder="Segundo Nome" class="form-control form-control-lg" />
 
                     </div>
                   </div>
@@ -56,7 +54,7 @@
                   <div class="col-md-6 mb-4 d-flex align-items-center">
                     <div class="form-outline datepicker w-100">
                       <label for="birthdayDate" class="form-label">Data de nascimento:</label>
-                      <input type="text" name="birthdayDate" placeholder="00/00/0000" class="form-control form-control-lg" id="birthdayDate" />
+                      <input type="text" id="birthdayDate" name="birthdayDate" placeholder="00/00/0000" class="form-control form-control-lg" id="birthdayDate" />
 
                     </div>
                   </div>
@@ -95,38 +93,38 @@
                       <div class="row">
                       </div>
                       <div class="form-outline mb-4">
-                        <label class="form-label" for="formCep">CEP:</label>
+                        <label class="form-label" for="cep">CEP:</label>
                         <input placeholder="00000-000" type="text" name="cep" id="cep" class="form-control form-control-lg" />
-                        
+
                       </div>
                       <div class="row">
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Estado:</label>
-                          <input placeholder="Estado" type="text" id="form3Example8" class="form-control form-control-lg" />
-                          
+                          <label class="form-label" for="estate">Estado:</label>
+                          <input placeholder="Estado" type="text" id="estate" name="estate" class="form-control form-control-lg" />
+
                         </div>
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Cidade:</label>
-                          <input placeholder="Cidade" type="text" id="form3Example8" class="form-control form-control-lg" />
-                          
+                          <label class="form-label" for="city">Cidade:</label>
+                          <input placeholder="Cidade" type="text" id="city" name="city" class="form-control form-control-lg" />
+
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Rua:</label>
-                          <input placeholder="Rua" type="text" id="form3Example8" class="form-control form-control-lg" />
-                          
+                          <label class="form-label" for="street">Rua:</label>
+                          <input placeholder="Rua" type="text" id="street" name="street" class="form-control form-control-lg" />
+
                         </div>
                         <div class="col-md-6 mb-4">
-                          <label class="form-label" for="form3Example8">Número:</label>
-                          <input placeholder="Número" type="number" id="form3Example8" class="form-control form-control-lg" />
-                          
+                          <label class="form-label" for="houseNumber">Número:</label>
+                          <input placeholder="Número" type="houseNumber" id="houseNumber" class="form-control form-control-lg" />
+
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="mt-4 pt-2">
-                    <input class="btn btn-primary btn-lg" type="submit" value="Registrar"/>
+                    <input class="btn btn-primary btn-lg" type="submit" value="Registrar" />
                   </div>
               </form>
             </div>
