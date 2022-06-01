@@ -4,7 +4,7 @@
     require_once 'conexao.php';
 
     //verifica se o usuario apertou no botao de cadastrar
-    if(isset($_POST['bt_cadastrar'])){
+    if(isset($_POST['bt_register'])){
         //pegar os dados e inserir no banco
 
         $emailAddress = mysqli_real_escape_string($con, $_POST['emailAddress']);
