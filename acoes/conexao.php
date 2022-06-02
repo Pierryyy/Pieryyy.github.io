@@ -1,9 +1,8 @@
 <?php
-
-    $host     = "127.0.0.1";
+    $host     = "localhost";
     $user     = "root";
-    $password = "";
-    $dbname   = "curriculo";
+    $password = "rootandrey2005";
+    $dbname   = "pixadura";
 
     // CONEXAO
     @$con = mysqli_connect($host, $user, $password, $dbname);
@@ -13,5 +12,5 @@
         echo "<p>ERRO: (" . mysqli_connect_errno($con) . ") " . mysqli_connect_error($con) . "</p>";
         exit;
     } else {
-        echo "<p>Conexão realizada com sucesso!</p>";
+        // echo "<p>Conexão realizada com sucesso!</p>";
     }
